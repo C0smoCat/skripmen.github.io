@@ -9,7 +9,16 @@ a {
     text-decoration: none;
 }
 
-.git {
+.github {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.vk {
     position: absolute;
     bottom: 1%;
     right: 1%;
@@ -18,14 +27,22 @@ a {
     border-radius: 10%;
 }
 
-.git:hover {
+.github:hover {
     background: rgb(250, 250, 250);
     transition: .3s linear;
     border-radius: 19px;
     padding: 10px;
 }
 
-.github {
+.vk:hover {
+    background: linear-gradient(to bottom right, #08458a, #0077ff);
+    transition: .3s linear;
+    border-radius: 19px;
+    padding: 10px;
+}
+
+.github,
+.vk {
     max-width: 30px;
 }
 
