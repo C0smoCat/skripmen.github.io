@@ -9,22 +9,10 @@ a {
     text-decoration: none;
 }
 
-.github {
-    position: absolute;
-    bottom: 1%;
-    right: 5%;
-    background-color: rgb(194, 194, 194);
-    padding: 10px;
-    border-radius: 10%;
-}
-
-.vk {
+.git {
     position: absolute;
     bottom: 1%;
     right: 1%;
-    background-color: rgb(194, 194, 194);
-    padding: 10px;
-    border-radius: 10%;
 }
 
 .github:hover {
@@ -44,6 +32,13 @@ a {
 .github,
 .vk {
     max-width: 30px;
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.vk {
+    margin-left: 10px;
 }
 
 .links:hover {
