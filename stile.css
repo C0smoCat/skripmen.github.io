@@ -29,13 +29,6 @@ a {
     max-width: 30px;
 }
 
-.links {
-    color: wheat;
-    position: absolute;
-    bottom: 3%;
-    right: 5%;
-}
-
 .links:hover {
     cursor: default;
 }
