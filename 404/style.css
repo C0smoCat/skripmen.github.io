@@ -1,0 +1,10 @@
+body {
+    background: url(bg.png);
+}
+
+.content {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+}

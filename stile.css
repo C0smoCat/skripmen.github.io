@@ -1,15 +1,13 @@
 body {
-    background: radial-gradient(#000 15%, transparent 16%) 0 0, radial-gradient(#000 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
-    background-color: #282828;
-    background-size: 16px 16px;
+    background: url(img/bg.png);
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.git {
+.links {
     position: absolute;
     bottom: 1%;
     right: 1%;
@@ -24,7 +22,6 @@ a {
 
 .vk:hover {
     background: linear-gradient(to bottom right, #08458a, #0077ff);
-    transition: .3s linear;
     border-radius: 19px;
     padding: 10px;
 }
@@ -35,19 +32,37 @@ a {
     background-color: rgb(194, 194, 194);
     padding: 10px;
     border-radius: 10%;
+    transition: .3s linear;
 }
 
 .vk {
     margin-left: 10px;
 }
 
-.links:hover {
-    cursor: default;
-}
-
 .top-menu {
     position: relative;
     background: rgba(34, 34, 34, .7);
+}
+
+
+/* Создатель */
+
+.sozd {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.skrip_men {
+    max-width: 50px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.sozd:hover {
+    opacity: 1;
 }
 
 .menu-main {
