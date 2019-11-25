@@ -1,5 +1,15 @@
 body {
-    background: rgb(17, 16, 16) url(img/bg.png);
+    background: rgb(17, 16, 16) url(img/bg.png) fixed;
+    animation: back 150s linear infinite;
+}
+
+@keyframes back {
+    from {
+        background-position: 100% 1000px, 0 0;
+    }
+    to {
+        background-position: 100% -1000px, 0 0;
+    }
 }
 
 a {

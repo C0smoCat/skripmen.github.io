@@ -1,17 +1,35 @@
 body {
-    background: rgb(17, 16, 16) url(bg.png);
+    background: rgb(17, 16, 16) url(bg.png) fixed;
+    animation: back 150s linear infinite;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+@keyframes back {
+    from {
+        background-position: 100% 1000px, 0 0;
+    }
+    to {
+        background-position: 100% -1000px, 0 0;
+    }
+}
+
+img {
+    margin-top: 90px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 2px solid
 }
 
 h1 {
     color: white;
     font-size: 50px;
     text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
 }
 
 .content {
     color: white;
     text-align: center;
     font-size: 30px;
-    font-family: 'Didact Gothic', sans-serif;
 }
