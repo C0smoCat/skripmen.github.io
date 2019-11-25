@@ -4,15 +4,6 @@ body {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-@keyframes back {
-    from {
-        background-position: 100% 1000px, 0 0;
-    }
-    to {
-        background-position: 100% -1000px, 0 0;
-    }
-}
-
 img {
     margin-top: 90px;
     max-width: 100%;
