@@ -2,6 +2,11 @@ body {
     background: rgb(17, 16, 16) url(bg.png);
 }
 
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
 .content {
     color: white;
     text-align: center;
