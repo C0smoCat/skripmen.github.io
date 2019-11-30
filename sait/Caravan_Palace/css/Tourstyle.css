@@ -102,7 +102,40 @@ nav ul{
     display: block;
     margin-bottom: 20px;
 }
-
+/*---table---------------*/
+table{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    width: 1024px;
+}
+td a{
+    background-color: #683a3d;
+    height: 100%;
+    padding: 15px;
+    color: #ccc;
+    text-decoration: none;
+    display:block;
+}
+td a:hover{
+    background-color: #a34a3c;
+}
+td{
+    background: #ccc;        
+}
+tr{
+    height: 50px;
+}
+.Data{
+    width: 250px;
+}
+.Place{
+    width: 574px;
+}
+.Ticket{
+    width: 200px;    
+}
+/*---table---------------*/
 /*---footer---------------*/
 footer{
     padding-top: 5px;
